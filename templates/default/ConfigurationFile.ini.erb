@@ -200,3 +200,11 @@ RSSVCSTARTUPTYPE="<%= node['sql_server']['rs_startup'] %>"
 ; Default value: "FilesOnly"
 
 RSINSTALLMODE="<%= node['sql_server']['rs_mode'] %>"
+
+INSTALLSQLDATADIR="<%= node['sql_server']['sql_data_dir'] %>"
+
+SQLUSERDBDIR="<%= node['sql_server']['user_db_dir'] %>"
+
+SQLUSERDBLOGDIR="<%= node['sql_server']['user_db_log_dir'] %>"
+
+SQLTEMPDBDIR="<%= node['sql_server']['temp_db_dir'] %>"
